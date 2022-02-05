@@ -1,0 +1,345 @@
+
+[4mstyle.css[24m
+   [2m2:1[22m   [31m[31m✖[39m  Expected empty line before comment                                   [2mcomment-empty-line-before[22m                    
+   [2m5:1[22m   [31m[31m✖[39m  Expected empty line before comment                                   [2mcomment-empty-line-before[22m                    
+   [2m6:1[22m   [31m[31m✖[39m  Expected empty line before comment                                   [2mcomment-empty-line-before[22m                    
+  [2m10:1[22m   [31m[31m✖[39m  Expected no more than 1 empty line                                   [2mmax-empty-lines[22m                              
+  [2m11:1[22m   [31m[31m✖[39m  Expected no more than 1 empty line                                   [2mmax-empty-lines[22m                              
+  [2m14:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m15:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m16:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+  [2m17:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+  [2m17:7[22m   [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+  [2m17:7[22m   [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m18:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m19:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m19:15[22m  [31m[31m✖[39m  Expected "1.88889" to be "1.8889"                                    [2mnumber-max-precision[22m                         
+  [2m20:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m20:17[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m20:17[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m21:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m21:23[22m  [31m[31m✖[39m  Expected quotes around "url" function argument                       [2mfunction-url-quotes[22m                          
+  [2m21:88[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m21:88[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m22:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m22:12[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m22:12[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m23:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m24:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+  [2m25:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+  [2m25:4[22m   [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+  [2m25:4[22m   [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m26:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m26:16[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m26:16[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m27:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m28:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+  [2m29:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+  [2m29:5[22m   [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+  [2m29:5[22m   [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m30:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m31:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m31:22[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m31:22[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m32:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m32:19[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m32:19[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m33:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m33:9[22m   [31m[31m✖[39m  Expected "#7D775C" to be "#7d775c"                                   [2mcolor-hex-case[22m                               
+  [2m34:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+  [2m35:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+  [2m35:9[22m   [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+  [2m35:9[22m   [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m36:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m36:20[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m36:20[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m37:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m37:24[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m37:24[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m38:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m38:9[22m   [31m[31m✖[39m  Expected "#B7A5DF" to be "#b7a5df"                                   [2mcolor-hex-case[22m                               
+  [2m39:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+  [2m40:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+  [2m40:12[22m  [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+  [2m40:12[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m41:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m41:20[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m41:20[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m42:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m42:24[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m42:24[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m43:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m43:9[22m   [31m[31m✖[39m  Expected "#D4CDDC" to be "#d4cddc"                                   [2mcolor-hex-case[22m                               
+  [2m44:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+  [2m45:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+  [2m45:8[22m   [31m[31m✖[39m  Expected newline after ","                                           [2mselector-list-comma-newline-after[22m            
+  [2m45:17[22m  [31m[31m✖[39m  Expected newline after ","                                           [2mselector-list-comma-newline-after[22m            
+  [2m45:29[22m  [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+  [2m45:29[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m46:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m46:29[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m46:29[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m47:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m47:9[22m   [31m[31m✖[39m  Expected "#9685BA" to be "#9685ba"                                   [2mcolor-hex-case[22m                               
+  [2m48:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+  [2m49:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+  [2m50:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m51:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+  [2m53:1[22m   [31m[31m✖[39m  Expected no more than 1 empty line                                   [2mmax-empty-lines[22m                              
+  [2m55:16[22m  [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+  [2m55:16[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m56:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m56:18[22m  [31m[31m✖[39m  Expected quotes around "url" function argument                       [2mfunction-url-quotes[22m                          
+  [2m56:77[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m56:77[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m57:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m57:27[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m57:28[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m58:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m58:12[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m58:12[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m59:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m60:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+  [2m62:9[22m   [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+  [2m62:9[22m   [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m63:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m64:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m65:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+  [2m67:12[22m  [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+  [2m67:12[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m68:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m68:30[22m  [31m[31m✖[39m  Expected quotes around "url" function argument                       [2mfunction-url-quotes[22m                          
+  [2m69:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m70:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m71:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m72:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m73:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m75:2[22m   [31m[31m✖[39m  Unexpected empty line before declaration                             [2mdeclaration-empty-line-before[22m                
+  [2m75:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m76:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m77:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m78:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+  [2m79:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+  [2m79:12[22m  [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+  [2m79:12[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m80:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m80:30[22m  [31m[31m✖[39m  Expected quotes around "url" function argument                       [2mfunction-url-quotes[22m                          
+  [2m80:85[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m80:85[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m81:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m81:19[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m81:19[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m82:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m82:22[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m82:22[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m83:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m83:15[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m83:15[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m84:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m84:15[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m84:15[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m85:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m87:2[22m   [31m[31m✖[39m  Unexpected empty line before declaration                             [2mdeclaration-empty-line-before[22m                
+  [2m87:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m88:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m89:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m90:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+  [2m91:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+  [2m92:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m93:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m97:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m97:14[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m97:14[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m98:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m98:30[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m98:30[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+  [2m99:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+  [2m99:15[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+  [2m99:15[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m100:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m101:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m102:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+ [2m103:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m103:25[22m  [31m[31m✖[39m  Unexpected missing generic font family                               [2mfont-family-no-missing-generic-family-keyword[22m
+ [2m103:33[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m103:33[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m104:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m105:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m108:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m108:15[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m108:15[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m109:2[22m   [31m[31m✖[39m  Unexpected longhand value '0px 10px 0 10px' instead of '0px 10px 0'  [2mshorthand-property-no-redundant-values[22m       
+ [2m109:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m109:12[22m  [31m[31m✖[39m  Unexpected unit                                                      [2mlength-zero-no-unit[22m                          
+ [2m110:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m111:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+ [2m111:14[22m  [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+ [2m111:14[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m112:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m112:21[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m112:21[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m113:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m114:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m116:9[22m   [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+ [2m116:9[22m   [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m117:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m117:21[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m118:1[22m   [31m[31m✖[39m  Expected newline before "}" of a multi-line block                    [2mblock-closing-brace-newline-before[22m           
+ [2m118:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m119:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+ [2m119:14[22m  [31m[31m✖[39m  Expected newline after ","                                           [2mselector-list-comma-newline-after[22m            
+ [2m119:34[22m  [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+ [2m119:34[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m120:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m120:21[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m121:1[22m   [31m[31m✖[39m  Expected newline before "}" of a multi-line block                    [2mblock-closing-brace-newline-before[22m           
+ [2m121:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m124:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m124:21[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m124:21[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m125:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m125:21[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m125:21[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m126:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m126:9[22m   [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m126:9[22m   [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m127:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m128:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m129:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+ [2m129:20[22m  [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+ [2m129:20[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m130:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m130:33[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m130:33[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m131:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m131:30[22m  [31m[31m✖[39m  Expected quotes around "url" function argument                       [2mfunction-url-quotes[22m                          
+ [2m131:90[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m131:90[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m132:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m132:16[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m132:16[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m133:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m133:20[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m133:20[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m134:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m134:15[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m135:1[22m   [31m[31m✖[39m  Expected newline before "}" of a multi-line block                    [2mblock-closing-brace-newline-before[22m           
+ [2m135:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m136:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+ [2m136:21[22m  [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+ [2m136:21[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m137:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m137:30[22m  [31m[31m✖[39m  Expected quotes around "url" function argument                       [2mfunction-url-quotes[22m                          
+ [2m137:85[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m137:85[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m138:2[22m   [31m[31m✖[39m  Unexpected longhand value '10px 0 5px 0' instead of '10px 0 5px'     [2mshorthand-property-no-redundant-values[22m       
+ [2m138:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m138:23[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m138:23[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m139:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m139:14[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m139:14[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m140:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m140:15[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m140:15[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m142:2[22m   [31m[31m✖[39m  Unexpected empty line before declaration                             [2mdeclaration-empty-line-before[22m                
+ [2m142:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m143:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m144:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m145:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m146:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+ [2m146:23[22m  [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+ [2m146:23[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m147:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m147:30[22m  [31m[31m✖[39m  Expected quotes around "url" function argument                       [2mfunction-url-quotes[22m                          
+ [2m147:85[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m147:85[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m148:2[22m   [31m[31m✖[39m  Unexpected longhand value '25px 0 5px 0' instead of '25px 0 5px'     [2mshorthand-property-no-redundant-values[22m       
+ [2m148:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m148:23[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m148:23[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m149:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m149:8[22m   [31m[31m✖[39m  Expected single space after ":" with a single-line declaration       [2mdeclaration-colon-space-after[22m                
+ [2m149:13[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m149:13[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m150:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m150:15[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m150:15[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m152:2[22m   [31m[31m✖[39m  Unexpected empty line before declaration                             [2mdeclaration-empty-line-before[22m                
+ [2m152:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m153:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m154:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m155:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m156:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+ [2m156:24[22m  [31m[31m✖[39m  Expected newline after "{" of a multi-line block                     [2mblock-opening-brace-newline-after[22m            
+ [2m156:24[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m157:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m157:30[22m  [31m[31m✖[39m  Expected quotes around "url" function argument                       [2mfunction-url-quotes[22m                          
+ [2m157:85[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m157:85[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m158:2[22m   [31m[31m✖[39m  Unexpected longhand value '25px 0 5px 0' instead of '25px 0 5px'     [2mshorthand-property-no-redundant-values[22m       
+ [2m158:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m158:23[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m158:23[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m159:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m159:8[22m   [31m[31m✖[39m  Expected single space after ":" with a single-line declaration       [2mdeclaration-colon-space-after[22m                
+ [2m159:13[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m159:13[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m160:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m160:15[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m160:15[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m162:2[22m   [31m[31m✖[39m  Unexpected empty line before declaration                             [2mdeclaration-empty-line-before[22m                
+ [2m162:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m163:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m164:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m165:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m167:1[22m   [31m[31m✖[39m  Expected no more than 1 empty line                                   [2mmax-empty-lines[22m                              
+ [2m169:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m170:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m171:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m172:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+ [2m173:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m173:21[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m173:21[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m174:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m174:30[22m  [31m[31m✖[39m  Expected quotes around "url" function argument                       [2mfunction-url-quotes[22m                          
+ [2m174:88[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m174:88[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m175:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m175:17[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m175:17[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m176:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m176:19[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m176:19[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m177:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m178:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m179:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m180:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+ [2m181:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m181:9[22m   [31m[31m✖[39m  Expected "#988F5E" to be "#988f5e"                                   [2mcolor-hex-case[22m                               
+ [2m182:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m183:1[22m   [31m[31m✖[39m  Expected empty line before rule                                      [2mrule-empty-line-before[22m                       
+ [2m184:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m184:9[22m   [31m[31m✖[39m  Expected "#B3AE94" to be "#b3ae94"                                   [2mcolor-hex-case[22m                               
+ [2m185:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m                                  
+ [2m187:1[22m   [31m[31m✖[39m  Expected no more than 1 empty line                                   [2mmax-empty-lines[22m                              
+ [2m189:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m189:30[22m  [31m[31m✖[39m  Expected quotes around "url" function argument                       [2mfunction-url-quotes[22m                          
+ [2m189:86[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m189:86[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m190:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m190:21[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m190:21[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m191:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m191:12[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m191:12[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m192:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m192:11[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m192:11[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m193:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m193:15[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block         [2mdeclaration-block-semicolon-newline-after[22m    
+ [2m193:15[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                 [2mno-eol-whitespace[22m                            
+ [2m194:2[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                     [2mindentation[22m                                  
+ [2m195:2[22m   [31m[31m✖[39m  Unexpected missing end-of-source newline                             [2mno-missing-end-of-source-newline[22m             
+ [2m195:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                     [2mindentation[22m
+

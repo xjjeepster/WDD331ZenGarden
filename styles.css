@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Rowdies&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* SCSS HEX Colors pallette */
+header {
+  background-color: #c77635ff;
+}
+
+.cd-logo {
+  /* logo box style */
+  background-color: #efb492ff;
+  width: 120px;
+}
+@media only screen and (min-width: 1024px) {
+  .cd-logo {
+    width: 180px;
+  }
+}
+
+.cd-main-nav {
+  /* main navigation background color - full screen on small devices */
+  background: #c77635ff;
+}
+.cd-main-nav li a {
+  color: #715b27ff;
+  border-color: #ce8347;
+}
+@media only screen and (min-width: 1024px) {
+  .cd-main-nav li a {
+    color: #f4e2d4;
+  }
+  .cd-main-nav li a.selected {
+    color: #715b27ff;
+    box-shadow: 0 2px 0 #efb492ff;
+  }
+  .cd-main-nav li a:hover {
+    color: #c77635ff;
+    background-color: #6acdffff;
+  }
+}
+
+.cd-nav-trigger span {
+  /* hamburger menu */
+  background-color: #715b27ff;
+}
+.cd-nav-trigger span::before, .cd-nav-trigger span::after {
+  /* upper and lower lines */
+  background-color: #715b27ff;
+}
+
+.nav-is-visible .cd-nav-trigger span {
+  /* hide line in the center on mobile when nav is visible */
+  background-color: rgba(113, 91, 39, 0);
+}
+.nav-is-visible .cd-nav-trigger span::before, .nav-is-visible .cd-nav-trigger span::after {
+  /* preserve visibility of upper and lower lines - close icon */
+  background-color: #715b27;
+}
+
+.cd-download {
+  /* download button top-right visible on big devices */
+  background-color: #d3915c;
+}
+.no-touch .cd-download:hover {
+  background-color: #d99e70;
+}
+.cd-download span {
+  /* tooltip */
+  background: #efb492ff;
+  color: #715b27ff;
+}
+.cd-download span::before {
+  /* right arrow color */
+  border-color: #efb492ff;
+}
+
+h1,
+h2 {
+  font-family: "Rowdies", cursive;
+  color: #c77635ff;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 0.4em;
+}
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 1.8rem;
+    margin: 1em 0 1.4em;
+  }
+}
+
+section > h2::before {
+  /* number before each section title */
+  color: #008cfc;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #e4ba98;
+}
+p a {
+  color: #efb492ff;
+  text-decoration: underline;
+}
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+}
+
+/* SCSS HEX Colors pallette */
+.cd-box {
+  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
+  border: 1px solid #49aeffff;
+  border-radius: 3px;
+  background: #715b27ff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  padding: 6px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: "Alegreya", serif;
+  line-height: 1.88889;
+  color: #efb492ff;
+  background: #715b27ff;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-top: 0;
+  text-align: justify;
+}
+
+main > h1 {
+  color: #c77635ff;
+}
+@media only screen and (min-width: 1600px) {
+  main > h1 {
+    /* title goes into the header on big devices */
+    color: #715b27ff;
+  }
+}
+
+h3 {
+  font: "Rowdies", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: #715b27ff;
+}
+
+a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #c77635ff;
+}
+
+a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #49aeffff;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: underline;
+  color: #efb492ff;
+}
+
+abbr {
+  border-bottom: none;
+}
+
+/* specific divs */
+.page-wrapper {
+  background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left;
+  padding: 0 175px 0 110px;
+  margin: 0;
+  position: relative;
+}
+
+.intro {
+  min-width: 470px;
+  width: 100%;
+}
+
+header h1 {
+  background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left;
+  margin-top: 10px;
+  display: block;
+  width: 219px;
+  height: 87px;
+  float: left;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+header h2 {
+  background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left;
+  margin-top: 58px;
+  margin-bottom: 40px;
+  width: 200px;
+  height: 18px;
+  float: right;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+header {
+  padding-top: 20px;
+  height: 87px;
+}
+
+.summary {
+  clear: both;
+  margin: 20px 20px 20px 10px;
+  width: 160px;
+  float: left;
+}
+
+.summary p {
+  font: italic 1.1em/2.2 georgia;
+  text-align: center;
+}
+
+.preamble {
+  clear: right;
+  padding: 0px 10px 0 10px;
+}
+
+.supporting {
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a:link, footer a:visited {
+  margin-right: 20px;
+}
+
+.sidebar {
+  margin-left: 600px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.sidebar .wrapper {
+  font: 10px verdana, sans-serif;
+  background: transparent url(http://csszengarden.com/001/paper-bg.jpg) top left repeat-y;
+  padding: 10px;
+  margin-top: 150px;
+  width: 130px;
+}
+
+.sidebar h3.select {
+  background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left;
+  margin: 10px 0 5px 0;
+  width: 97px;
+  height: 16px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sidebar h3.archives {
+  background: transparent url(http://csszengarden.com/001/h5.gif) no-repeat top left;
+  margin: 25px 0 5px 0;
+  width: 57px;
+  height: 14px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sidebar h3.resources {
+  background: transparent url(http://csszengarden.com/001/h6.gif) no-repeat top left;
+  margin: 25px 0 5px 0;
+  width: 63px;
+  height: 10px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  line-height: 1.3em;
+  background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center;
+  display: block;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+
+.sidebar li a:link {
+  color: #715b27ff;
+}
+
+.sidebar li a:visited {
+  color: #c77635ff;
+}
+
+.extra1 {
+  background: transparent url(http://csszengarden.com/001/cr2.gif) top left no-repeat;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 148px;
+  height: 110px;
+}
+
+/*# sourceMappingURL=styles.css.map */

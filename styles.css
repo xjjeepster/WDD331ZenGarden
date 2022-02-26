@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Rowdies&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -27,11 +28,6 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, main {
-  display: block;
-}
-
 body {
   line-height: 1;
 }
@@ -55,6 +51,10 @@ table {
   border-spacing: 0;
 }
 
+/*@mixin column($percentage, $float-direction:left) {
+  width: 100% * $percentage;
+  float: $float-direction;
+}*/
 /* SCSS HEX Colors pallette */
 header {
   background-color: #c77635ff;
@@ -227,13 +227,13 @@ h3 {
   font: "Rowdies", cursive;
   letter-spacing: 1px;
   margin-bottom: 0;
-  color: #715b27ff;
+  color: #efb492ff;
 }
 
 a:link {
   font-weight: bold;
   text-decoration: none;
-  color: #c77635ff;
+  color: #6acdffff;
 }
 
 a:visited {
@@ -253,18 +253,30 @@ abbr {
 
 /* specific divs */
 .page-wrapper {
-  background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left;
-  padding: 0 175px 0 110px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 1fr 1fr 1fr 1fr 100px;
+  gap: 1rem;
+  padding: 0 50px 0 50px;
   margin: 0;
   position: relative;
 }
-
-.intro {
+.page-wrapper .intro {
+  grid-area: 1/1/3/6;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 200px 1fr;
+  gap: 1rem;
   min-width: 470px;
   width: 100%;
 }
-
-header h1 {
+.page-wrapper .intro header {
+  grid-area: 1/1/2/4;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  height: 87px;
+}
+.page-wrapper .intro header h1 {
   background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left;
   margin-top: 10px;
   display: block;
@@ -275,8 +287,7 @@ header h1 {
   white-space: nowrap;
   overflow: hidden;
 }
-
-header h2 {
+.page-wrapper .intro header h2 {
   background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left;
   margin-top: 58px;
   margin-bottom: 40px;
@@ -287,58 +298,56 @@ header h2 {
   white-space: nowrap;
   overflow: hidden;
 }
-
-header {
-  padding-top: 20px;
-  height: 87px;
-}
-
-.summary {
-  clear: both;
+.page-wrapper .intro .summary {
+  grid-area: 1/2/2/4;
+  position: absolute;
   margin: 20px 20px 20px 10px;
-  width: 160px;
-  float: left;
+  width: 800px;
 }
-
-.summary p {
+.page-wrapper .intro .summary .summary p {
   font: italic 1.1em/2.2 georgia;
   text-align: center;
 }
-
-.preamble {
+.page-wrapper .intro .preamble {
+  grid-area: 2/2/3/3;
   clear: right;
-  padding: 0px 10px 0 10px;
+  padding: 0px 1rem 0px 0px;
 }
-
-.supporting {
-  padding-left: 10px;
-  margin-bottom: 40px;
+.page-wrapper .supporting {
+  grid-area: 2/2/6/6;
+  display: grid;
+  gap: 1rem;
 }
-
-footer {
+.page-wrapper .supporting .explanation {
+  grid-area: 1/3/3/5;
+}
+.page-wrapper .supporting .participation {
+  grid-area: 3/1/4/3;
+}
+.page-wrapper .supporting .benefits {
+  grid-area: 4/1/5/3;
+}
+.page-wrapper .supporting .requirements {
+  grid-area: 3/3/5/5;
+}
+.page-wrapper .supporting footer {
+  grid-area: 5/1/6/5;
   text-align: center;
 }
-
-footer a:link, footer a:visited {
+.page-wrapper .supporting footer .a:link, .page-wrapper .supporting footer a:visited {
   margin-right: 20px;
 }
-
-.sidebar {
-  margin-left: 600px;
-  position: absolute;
-  top: 0;
-  right: 0;
+.page-wrapper .sidebar {
+  grid-area: 2/1/6/2;
 }
-
-.sidebar .wrapper {
+.page-wrapper .sidebar .wrapper {
   font: 10px verdana, sans-serif;
   background: transparent url(http://csszengarden.com/001/paper-bg.jpg) top left repeat-y;
   padding: 10px;
   margin-top: 150px;
   width: 130px;
 }
-
-.sidebar h3.select {
+.page-wrapper .sidebar h3.select {
   background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left;
   margin: 10px 0 5px 0;
   width: 97px;
@@ -347,8 +356,7 @@ footer a:link, footer a:visited {
   white-space: nowrap;
   overflow: hidden;
 }
-
-.sidebar h3.archives {
+.page-wrapper .sidebar h3.archives {
   background: transparent url(http://csszengarden.com/001/h5.gif) no-repeat top left;
   margin: 25px 0 5px 0;
   width: 57px;
@@ -357,8 +365,7 @@ footer a:link, footer a:visited {
   white-space: nowrap;
   overflow: hidden;
 }
-
-.sidebar h3.resources {
+.page-wrapper .sidebar h3.resources {
   background: transparent url(http://csszengarden.com/001/h6.gif) no-repeat top left;
   margin: 25px 0 5px 0;
   width: 63px;
@@ -367,13 +374,11 @@ footer a:link, footer a:visited {
   white-space: nowrap;
   overflow: hidden;
 }
-
-.sidebar ul {
+.page-wrapper .sidebar ul {
   margin: 0;
   padding: 0;
 }
-
-.sidebar li {
+.page-wrapper .sidebar li {
   line-height: 1.3em;
   background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center;
   display: block;
@@ -381,22 +386,11 @@ footer a:link, footer a:visited {
   margin-bottom: 5px;
   list-style-type: none;
 }
-
-.sidebar li a:link {
+.page-wrapper .sidebar li a:link {
   color: #715b27ff;
 }
-
-.sidebar li a:visited {
+.page-wrapper .sidebar li a:visited {
   color: #c77635ff;
-}
-
-.extra1 {
-  background: transparent url(http://csszengarden.com/001/cr2.gif) top left no-repeat;
-  position: absolute;
-  top: 40px;
-  right: 0;
-  width: 148px;
-  height: 110px;
 }
 
 /*# sourceMappingURL=styles.css.map */

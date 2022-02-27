@@ -140,7 +140,7 @@ h1 {
   line-height: 1.2;
   margin: 0 0 0.4em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   h1 {
     font-size: 3.2rem;
   }
@@ -156,7 +156,7 @@ h2 {
   text-transform: uppercase;
   margin: 1em 0;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   h2 {
     font-size: 1.8rem;
     margin: 1em 0 1.4em;
@@ -177,7 +177,7 @@ p a {
   color: #efb492ff;
   text-decoration: underline;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   p {
     font-size: 1.6rem;
     line-height: 1.6;
@@ -391,5 +391,15 @@ abbr {
 .page-wrapper .sidebar li a:visited {
   color: #c77635ff;
 }
+
+/*
+@include MQ(S){
+    .page-wrapper {
+        display: block;
+        .intro{
+            display: block;
+        }
+    }
+}*/
 
 /*# sourceMappingURL=styles.css.map */

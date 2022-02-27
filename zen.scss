@@ -87,6 +87,8 @@ abbr {
 	}
 
 
+
+
 // Grid 
 .page-wrapper { 
     display: grid;
@@ -242,3 +244,12 @@ abbr {
 
     }
 }
+/*
+@include MQ(S){
+    .page-wrapper {
+        display: block;
+        .intro{
+            display: block;
+        }
+    }
+}*/

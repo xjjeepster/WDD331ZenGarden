@@ -10,11 +10,12 @@
 
 /* SCSS HEX Colors pallette */
 
-$color-5: #715b27ff; // Field-drab
-$color-2: #c77635ff; // copper
-$color-1: #efb492ff; // tumbleweed
-$color-4: #49aeffff; // blue-jeans
-$color-3: #6acdffff; // light-sky-blue
+$color-5: #715b27; // Field-drab
+$color-2: #c77635; // copper
+$color-1: #efb492; // tumbleweed
+$color-4: #49aeff; // blue-jeans
+$color-3: #6acdff; // light-sky-blue
+$color-6: #0e0c0d;   
 
 // additional colors
 
@@ -42,23 +43,39 @@ html {
 	padding: 0;
 	}
 body { 
+    position:relative;
 	font: $primary-font;
 	line-height: 1.88889;
-	color: $color-1;
-	background: $color-5;
+	color: $color-2;
 	margin: 0; 
 	padding: 0;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-image: url(src/111563527_presentation-wide_bgr.png);
+        background-repeat: no-repeat;
+        background-position: center center; 
+        background-attachment: fixed;
+        background-color: $color-5;
+        opacity: .50;
+    }
 	}
 p { 
 	margin-top: 0; 
 	text-align: justify;
+    color:$color-6;
 	}
 main > h1 {
-    color: $color-2;
+    color: $color-6;
       
     @include MQ(L) {
     /* title goes into the header on big devices */
-        color: $color-5;
+        color: $color-6;
     }
 }
 
@@ -66,7 +83,8 @@ h3 {
 	font: $secondary-font;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
-	color: $color-1;
+	color: $color-6;
+    font-weight: bold;
 	}
 a:link { 
 	font-weight: bold; 
@@ -76,7 +94,7 @@ a:link {
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: $color-4;
+	color: $color-3;
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
@@ -95,7 +113,7 @@ abbr {
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 200px 1fr 1fr 1fr 1fr 100px;
 	gap: 1rem;
-	//background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
+
 	//padding: 0 50px 0 50px;
 	margin: 0; 
 	position: relative;
@@ -128,10 +146,6 @@ abbr {
                 width: 219px;
                 height: 87px;
                 float: left;
-            
-                //text-indent: 100%;
-                //white-space: nowrap;
-                //overflow: hidden;
                 }
             h2 { 
                 //background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left; 
@@ -196,39 +210,44 @@ abbr {
     .sidebar {
         grid-area: 2 / 1 / 6 / 2;
         .wrapper { 
+            position: relative;
             font: 12px verdana, sans-serif; 
-            color: $color-1;
-            background: transparent url(src/343461.gif)  no-repeat fixed; 
-            background-position: 5% 50%;
+            color: $color-5;
+            font-weight: bold;
+            font-style: italic;
+
             padding-left: 3em; 
            //margin-top: 150px; 
             width: 200px; 
+
+            &::before {
+                content: '';
+                position:absolute;
+                top: 0px;
+                right: 0px;
+                bottom: 0px;
+                left: 0px;
+                background: transparent url(src/343461.gif)  no-repeat fixed; 
+                background-position: 5% 50%;
+                opacity: 50%;
+            }
         }
         h3.select { 
-            //background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left;
-            color:$color-1; 
+            color:$color-6; 
             margin: 10px 0 5px 0; 
             font-size: medium;
             width: 97px; 
             height: 16px; 
-        
-            //text-indent: 100%;
             white-space: nowrap;
-            //overflow: hidden;
         }
         h3.archives { 
-            //background: transparent url(http://csszengarden.com/001/h5.gif) no-repeat top left; 
             margin: 25px 0 5px 0; 
             font-size: medium;
             width:57px; 
             height: 14px; 
-        
-            //text-indent: 100%;
             white-space: nowrap;
-            //overflow: hidden;
         }
         h3.resources { 
-            //background: transparent url(http://csszengarden.com/001/h6.gif) no-repeat top left; 
             margin: 25px 0 9px 0; 
             font-size: medium;
             width:63px; 
@@ -250,10 +269,13 @@ abbr {
             margin-bottom: 5px;
             list-style-type: none;
             a:link {
+                color: $color-5;
+            }
+            a:hover{
                 color: $color-4;
             }
             a:visited {
-                color: $color-5;
+                color: $color-2;
             }
         }
 

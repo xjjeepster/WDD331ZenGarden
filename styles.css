@@ -187,9 +187,9 @@ p a {
 /* SCSS HEX Colors pallette */
 .cd-box {
   /* this is the container of various design elements - i.e. the 2 logo of the branding section */
-  border: 1px solid #49aeffff;
+  border: 1px solid #49aeff;
   border-radius: 3px;
-  background: #715b27ff;
+  background: #715b27;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   padding: 6px;
 }
@@ -200,26 +200,41 @@ html {
 }
 
 body {
+  position: relative;
   font: "Alegreya", serif;
   line-height: 1.88889;
-  color: #efb492ff;
-  background: #715b27ff;
+  color: #c77635;
   margin: 0;
   padding: 0;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(src/111563527_presentation-wide_bgr.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #715b27;
+  opacity: 0.5;
 }
 
 p {
   margin-top: 0;
   text-align: justify;
+  color: #0e0c0d;
 }
 
 main > h1 {
-  color: #c77635ff;
+  color: #0e0c0d;
 }
 @media only screen and (min-width: 1600px) {
   main > h1 {
     /* title goes into the header on big devices */
-    color: #715b27ff;
+    color: #0e0c0d;
   }
 }
 
@@ -227,24 +242,25 @@ h3 {
   font: "Rowdies", cursive;
   letter-spacing: 1px;
   margin-bottom: 0;
-  color: #efb492ff;
+  color: #0e0c0d;
+  font-weight: bold;
 }
 
 a:link {
   font-weight: bold;
   text-decoration: none;
-  color: #6acdffff;
+  color: #6acdff;
 }
 
 a:visited {
   font-weight: bold;
   text-decoration: none;
-  color: #49aeffff;
+  color: #6acdff;
 }
 
 a:hover, a:focus, a:active {
   text-decoration: underline;
-  color: #efb492ff;
+  color: #efb492;
 }
 
 abbr {
@@ -279,7 +295,7 @@ abbr {
   background-size: 3em;
   background-position: 60%;
   font: "Alegreya", serif;
-  color: #715b27ff;
+  color: #715b27;
   display: block;
   font-size: xx-large;
   padding-left: 1em;
@@ -288,7 +304,7 @@ abbr {
   float: left;
 }
 .page-wrapper .intro header h2 {
-  color: #715b27ff;
+  color: #715b27;
   margin-top: 58px;
   margin-bottom: 40px;
   padding-right: 1em;
@@ -340,15 +356,27 @@ abbr {
   grid-area: 2/1/6/2;
 }
 .page-wrapper .sidebar .wrapper {
+  position: relative;
   font: 12px verdana, sans-serif;
-  color: #efb492ff;
-  background: transparent url(src/343461.gif) no-repeat fixed;
-  background-position: 5% 50%;
+  color: #715b27;
+  font-weight: bold;
+  font-style: italic;
   padding-left: 3em;
   width: 200px;
 }
+.page-wrapper .sidebar .wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: transparent url(src/343461.gif) no-repeat fixed;
+  background-position: 5% 50%;
+  opacity: 50%;
+}
 .page-wrapper .sidebar h3.select {
-  color: #efb492ff;
+  color: #0e0c0d;
   margin: 10px 0 5px 0;
   font-size: medium;
   width: 97px;
@@ -382,10 +410,13 @@ abbr {
   list-style-type: none;
 }
 .page-wrapper .sidebar li a:link {
-  color: #49aeffff;
+  color: #715b27;
+}
+.page-wrapper .sidebar li a:hover {
+  color: #49aeff;
 }
 .page-wrapper .sidebar li a:visited {
-  color: #715b27ff;
+  color: #c77635;
 }
 
 @media only screen and (max-width: 768px) {

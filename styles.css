@@ -310,7 +310,6 @@ abbr {
   padding-right: 1em;
   height: 18px;
   float: right;
-  white-space: nowrap;
 }
 .page-wrapper .intro .summary {
   grid-area: 1/2/2/4;
@@ -373,7 +372,7 @@ abbr {
   left: 0px;
   background: transparent url(src/343461.gif) no-repeat fixed;
   background-position: 5% 50%;
-  opacity: 50%;
+  opacity: 45%;
 }
 .page-wrapper .sidebar h3.select {
   color: #0e0c0d;
@@ -403,7 +402,6 @@ abbr {
 }
 .page-wrapper .sidebar li {
   line-height: 1.3em;
-  background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center;
   display: block;
   padding-top: 5px;
   margin-bottom: 5px;

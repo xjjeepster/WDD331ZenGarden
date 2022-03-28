@@ -286,9 +286,11 @@ abbr {
 }
 .page-wrapper .intro header {
   grid-area: 1/1/2/4;
+  margin: 1em;
   padding-top: 30px;
   padding-bottom: 30px;
   height: 87px;
+  border-radius: 40px;
 }
 .page-wrapper .intro header h1 {
   background: transparent url(src/logo.272a18c5.svg) no-repeat top;
@@ -314,7 +316,7 @@ abbr {
 .page-wrapper .intro .summary {
   grid-area: 1/2/2/4;
   position: absolute;
-  margin: 20px 20px 20px 10px;
+  margin: 45px 20px 20px 10px;
   width: 800px;
 }
 .page-wrapper .intro .summary .summary p {

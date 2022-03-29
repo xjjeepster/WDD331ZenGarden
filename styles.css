@@ -426,6 +426,9 @@ abbr {
   .page-wrapper .intro {
     display: block;
   }
+  .page-wrapper .intro .supporting {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

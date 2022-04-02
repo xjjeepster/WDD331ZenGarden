@@ -11,10 +11,10 @@
 /* SCSS HEX Colors pallette */
 
 $color-5: #715b27; // Field-drab
-$color-2: #c77635; // copper
+$color-2: #c87634; // copper
 $color-1: #efb492; // tumbleweed
 $color-4: #49aeff; // blue-jeans
-$color-3: #6acdff; // light-sky-blue
+$color-3: #036bc6; // light-sky-blue
 $color-6: #0e0c0d;   
 
 // additional colors
@@ -62,7 +62,7 @@ body {
         background-position: center center; 
         background-attachment: fixed;
         background-color: $color-5;
-        opacity: .50;
+        opacity: .20;
     }
 	}
 p { 
@@ -81,6 +81,7 @@ main > h1 {
 
 h3 { 
 	font: $secondary-font;
+    font-size: x-large;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: $color-6;
@@ -161,7 +162,7 @@ abbr {
             grid-area: 1 / 2 / 2 / 4;
             position: absolute; 
             margin: 45px 20px 20px 10px; 
-            width: 800px; 
+            width: auto; 
             .summary p {
                 font: italic 1.1em/2.2 georgia; 
                 text-align: center;
@@ -272,13 +273,37 @@ abbr {
 }
 
 @include MQ(S){
+
+
     .page-wrapper {
         display: block;
-        .intro{
+        .intro {
             display: block;
-            .supporting {
-                display: block;
+            width: auto;
+            header{
+                margin: 0;
+                border-radius: 0%;
+                h2{
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    height: auto;
+                }
             }
+            .banner {
+                margin: 0;
+            }
+            .summary {
+                width: auto;
+                margin: auto;
+                
+            }
+            .preamble {
+                width: auto;
+                padding: 0;
+            }
+        }
+        .supporting {
+            display: block;
         }
     }
 }

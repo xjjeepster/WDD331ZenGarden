@@ -203,7 +203,7 @@ body {
   position: relative;
   font: "Alegreya", serif;
   line-height: 1.88889;
-  color: #c77635;
+  color: #c87634;
   margin: 0;
   padding: 0;
 }
@@ -219,7 +219,7 @@ body::before {
   background-position: center center;
   background-attachment: fixed;
   background-color: #715b27;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 p {
@@ -240,6 +240,7 @@ main > h1 {
 
 h3 {
   font: "Rowdies", cursive;
+  font-size: x-large;
   letter-spacing: 1px;
   margin-bottom: 0;
   color: #0e0c0d;
@@ -249,13 +250,13 @@ h3 {
 a:link {
   font-weight: bold;
   text-decoration: none;
-  color: #6acdff;
+  color: #036bc6;
 }
 
 a:visited {
   font-weight: bold;
   text-decoration: none;
-  color: #6acdff;
+  color: #036bc6;
 }
 
 a:hover, a:focus, a:active {
@@ -317,7 +318,7 @@ abbr {
   grid-area: 1/2/2/4;
   position: absolute;
   margin: 45px 20px 20px 10px;
-  width: 800px;
+  width: auto;
 }
 .page-wrapper .intro .summary .summary p {
   font: italic 1.1em/2.2 georgia;
@@ -416,7 +417,7 @@ abbr {
   color: #49aeff;
 }
 .page-wrapper .sidebar li a:visited {
-  color: #c77635;
+  color: #c87634;
 }
 
 @media only screen and (max-width: 768px) {
@@ -425,8 +426,29 @@ abbr {
   }
   .page-wrapper .intro {
     display: block;
+    width: auto;
   }
-  .page-wrapper .intro .supporting {
+  .page-wrapper .intro header {
+    margin: 0;
+    border-radius: 0%;
+  }
+  .page-wrapper .intro header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: auto;
+  }
+  .page-wrapper .intro .banner {
+    margin: 0;
+  }
+  .page-wrapper .intro .summary {
+    width: auto;
+    margin: auto;
+  }
+  .page-wrapper .intro .preamble {
+    width: auto;
+    padding: 0;
+  }
+  .page-wrapper .supporting {
     display: block;
   }
 }

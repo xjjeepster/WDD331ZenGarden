@@ -241,7 +241,6 @@ main > h1 {
 h3 {
   font: "Rowdies", cursive;
   font-size: x-large;
-  letter-spacing: 1px;
   margin-bottom: 0;
   color: #0e0c0d;
   font-weight: bold;
@@ -283,7 +282,7 @@ abbr {
   grid-template-rows: 200px 1fr;
   gap: 1rem;
   min-width: 470px;
-  width: 100%;
+  max-width: 100%;
 }
 .page-wrapper .intro header {
   grid-area: 1/1/2/4;
@@ -316,7 +315,6 @@ abbr {
 }
 .page-wrapper .intro .summary {
   grid-area: 1/2/2/4;
-  position: absolute;
   margin: 45px 20px 20px 10px;
   width: auto;
 }
@@ -411,7 +409,7 @@ abbr {
   list-style-type: none;
 }
 .page-wrapper .sidebar li a:link {
-  color: #715b27;
+  color: #036bc6;
 }
 .page-wrapper .sidebar li a:hover {
   color: #49aeff;
@@ -431,25 +429,68 @@ abbr {
   .page-wrapper .intro header {
     margin: 0;
     border-radius: 0%;
+    height: 150px;
   }
   .page-wrapper .intro header h2 {
-    margin-top: 0;
-    margin-bottom: 0;
+    padding: 10px;
+    margin: auto;
     height: auto;
   }
   .page-wrapper .intro .banner {
     margin: 0;
+    padding: 1em;
   }
   .page-wrapper .intro .summary {
     width: auto;
     margin: auto;
+    padding: 1em;
+    background-color: #efb492;
   }
   .page-wrapper .intro .preamble {
     width: auto;
     padding: 0;
+    padding: 1em;
   }
   .page-wrapper .supporting {
     display: block;
+    padding: 1em;
+  }
+  .page-wrapper .sidebar .wrapper {
+    font: 15px verdana, sans-serif;
+    text-align: center;
+    padding-left: 0;
+    width: auto;
+  }
+  .page-wrapper .sidebar .wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: transparent url(src/343461.gif) no-repeat fixed;
+    background-position: 5% 75%;
+    opacity: 45%;
+  }
+  .page-wrapper .sidebar h3.select {
+    margin: auto;
+  }
+  .page-wrapper .sidebar h3.archives {
+    margin: auto;
+  }
+  .page-wrapper .sidebar h3.resources {
+    margin: auto;
+  }
+  .page-wrapper .sidebar ul {
+    margin: 0;
+    padding: 0;
+  }
+  .page-wrapper .sidebar li {
+    line-height: 1.3em;
+    display: block;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    list-style-type: none;
   }
 }
 
